@@ -2,8 +2,6 @@
 #POST - Write data (Write new data)
 #DELETE - Delete data
 #PUT - Write data (Update existent data)
-#Buscar dados da classe apenas quando for precisar escrever um novo dado ou atualizar um dado existente
-#Usar elementos da lista como parâmetro quando o dado para a requisição vier da URL
 
 from fastapi import FastAPI
 from pydantic import BaseModel
